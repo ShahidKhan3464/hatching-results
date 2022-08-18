@@ -1,0 +1,160 @@
+.Contact {
+    margin-top: 120px;
+    padding-bottom: 50px;
+    background: #F6F6F6;
+}
+
+.Contact .top {
+    width: 100%;
+    max-width: 370px;
+    margin: 84px 0 20px 0;
+}
+
+.top h6 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0F0E13;
+    line-height: 56px;
+}
+
+.top p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #3F3E42;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.Contact form {
+    width: 100%;
+    max-width: 650px;
+}
+
+form ::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #C5C5C5;
+    line-height: 26px;
+    font-style: normal;
+    font-family: 'Poppins';
+}
+
+form .form-control {
+    padding: 0.5rem;
+}
+
+form .btn-primary {
+    width: 122px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    font-style: normal;
+    background: #007979;
+    border-radius: 22.5px;
+    font-family: 'Poppins';
+    backdrop-filter: blur(4px);
+}
+
+.Contact .contact-img {
+    width: 100%;
+    height: 395px;
+    max-width: 516px;
+    margin-top: 176px;
+}
+
+.contact-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .Contact .row {
+        flex-direction: column-reverse;
+    }
+
+    .Contact .contact-img {
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 3rem;
+    }
+
+    .Contact .top {
+        margin: auto;
+    }
+
+    .Contact form {
+        margin: auto;
+        max-width: 550px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Contact {
+        margin-top: 100px;
+    }
+
+    .Contact .contact-img {
+        height: 350px;
+        max-width: 450px;
+    }
+
+    .Contact form {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Contact {
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .Contact .contact-img {
+        height: 300px;
+        margin-top: 0px;
+        max-width: 280px;
+        margin-bottom: 0px;
+    }
+
+    .Contact .top {
+        padding-left: 4rem;
+    }
+
+    .top h6 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .top p {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    .Contact form {
+        max-width: 280px;
+    }
+
+    form .form-control {
+        padding: .375rem .75rem;
+    }
+
+    form ::placeholder {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    form .btn-primary {
+        width: 80px;
+        height: 35px;
+        margin-top: 0px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
