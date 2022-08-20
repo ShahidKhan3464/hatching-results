@@ -1,0 +1,172 @@
+.Instructor .left {
+    padding: 170px 0;
+}
+
+.Instructor .left .text h6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0F0E13;
+    line-height: 74px;
+}
+
+.Instructor .left .text p {
+    width: 100%;
+    max-width: 645px;
+    line-height: 34px;
+}
+
+.Instructor .bg-image {
+    width: 100%;
+    height: 623px;
+    max-width: 590px;
+    margin-top: 180px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/images/instructor-bg.png');
+}
+
+.bg-image .box {
+    gap: 15px;
+    width: 156px;
+    height: 168px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 21.2346px;
+    backdrop-filter: blur(13.2716px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.04) 100%);
+}
+
+.box .img {
+    width: 55px;
+    height: 55px;
+}
+
+.box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.box h6 {
+    font-size: 17px;
+    color: #0F0E13;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#instructor {
+    top: 50px;
+    left: 50px;
+}
+
+#textbooks {
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+    .Instructor .bg-image {
+        height: 580px;
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Instructor .left .text h6 {
+        line-height: 40px;
+    }
+
+    .Instructor .bg-image {
+        height: 470px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Instructor .row {
+        flex-direction: column-reverse;
+    }
+
+    .Instructor .bg-image {
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .Instructor .left {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Instructor .bg-image {
+        height: 540px;
+        max-width: 510px;
+    }
+
+    #instructor {
+        top: 30px;
+        left: 30px;
+    }
+
+    #textbooks {
+        right: 20px;
+        bottom: -20px;
+    }
+
+    .Instructor .left {
+        padding: 50px 20px;
+    }
+
+    .Instructor .left .text h6 {
+        line-height: 50px;
+    }
+
+    .Instructor .left .text p {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Instructor .bg-image {
+        height: 280px;
+        margin-top: 50px;
+        max-width: 270px;
+    }
+
+    .bg-image .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .bg-image .img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .box h6 {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    #textbooks {
+        right: -10px;
+    }
+
+    .Instructor .left .text h6 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .Instructor .left .text p {
+        font-size: 12px;
+        max-width: 250px;
+        line-height: 20px;
+    }
+}

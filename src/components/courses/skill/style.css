@@ -1,0 +1,154 @@
+.Skill {
+    padding-top: 376px;
+}
+
+.Skill .title h6 {
+    width: 100%;
+    color: #0F0E13;
+    margin-top: 90px;
+    max-width: 518px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 15px;
+    letter-spacing: 0px;
+}
+
+.Skill p {
+    width: 100%;
+    font-size: 16px;
+    max-width: 418px;
+    color: #5C6272;
+    line-height: 23px;
+}
+
+.Skill .bg-image {
+    width: 100%;
+    height: 620px;
+    max-width: 630px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/images/hero-bg2.png');
+}
+
+.Skill .card {
+    gap: 10px;
+    width: 218px;
+    height: 55px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: row;
+    background: #FFFFFF;
+    justify-content: center;
+    border-radius: 8.98106px;
+    box-shadow: 0px 0px 9.78068px 2.09586px rgba(0, 0, 0, 0.2);
+}
+
+.Skill .card .img {
+    width: 40px;
+    height: 35px;
+}
+
+.Skill .card .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Skill .card h6 {
+    color: #3E3E3E;
+    font-weight: 600;
+    line-height: 135%;
+    font-size: 11.5px;
+}
+
+#card1 {
+    left: 30px;
+    top: 125px;
+}
+
+#card2 {
+    top: 42%;
+    left: 70%;
+}
+
+.main-bg::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    height: 376px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/images/main-bg.png');
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .Skill .bg-image {
+        height: 490px;
+        max-width: 500px;
+    }
+
+    #card1 {
+        left: 0px;
+        top: 90px;
+    }
+
+    #card2 {
+        top: 60%;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main-bg::before {
+        height: 180px;
+    }
+
+    .Skill {
+        padding-top: 180px;
+    }
+
+    .Skill .title h6 {
+        font-size: 18px;
+        max-width: 320px;
+        margin-top: 30px;
+        line-height: 30px;
+    }
+
+    .Skill p {
+        font-size: 12px;
+        max-width: 320px;
+        line-height: 20px;
+    }
+
+    .Skill .bg-image {
+        margin: auto;
+        height: 270px;
+        max-width: 280px;
+        margin-top: 1rem;
+    }
+
+    .Skill .card {
+        width: 130px;
+        height: 50px;
+    }
+
+    .Skill .card .img {
+        width: 30px;
+        height: 25px;
+    }
+
+    .Skill .card h6 {
+        font-size: 8px;
+    }
+
+    #card1 {
+        left: -4px;
+        top: 40px;
+    }
+}

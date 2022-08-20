@@ -1,0 +1,94 @@
+.Cart {
+    padding-top: 376px;
+    margin-bottom: 100px;
+}
+
+.Cart .title h6 {
+    font-size: 28px;
+    color: #1B2337;
+    line-height: 84.71%;
+    margin-bottom: 26px;
+}
+
+.Cart .table {
+    background: #FFFFFF;
+    border-radius: 7.16667px;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+}
+
+.table tbody, td, th, thead, tr {
+    border-color: none;
+    border-style: none;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1.25rem;
+    box-shadow: none;
+}
+
+.table thead {
+    background: #F8F8F8;
+    border-radius: 7.16667px 7.16667px 0px 0px;
+}
+
+.table thead th {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F0E13;
+    font-style: normal;
+    line-height: 84.71%;
+    font-family: 'Poppins';
+}
+
+.table tbody td {
+    width: 197px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0F0E13;
+    line-height: 20px;
+    font-style: normal;
+    font-family: 'Poppins';
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .table thead th {
+        font-size: 14px;
+    }
+
+    .table tbody td {
+        font-size: 12px;
+    }
+
+    .Cart .title h6 {
+        font-size: 20px;
+    }
+
+    .btn-danger {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Cart {
+        padding-top: 180px;
+        margin-bottom: 50px;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 1rem;
+    }
+
+    .table thead th {
+        font-size: 12px;
+    }
+
+    .table tbody td {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .btn-danger {
+        font-size: 10px;
+    }
+}

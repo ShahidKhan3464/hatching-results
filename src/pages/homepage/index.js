@@ -1,16 +1,17 @@
 import React from 'react'
-import Hero from './components/hero/Hero';
-import Description from './components/course-description/Description';
-import Aks from './components/aks/Aks';
-import Instructor from './components/instructor/Instructor';
-import Course from './components/choose-course/Course';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
+import Header from '../../components/homepage/header/Header';
+import Hero from '../../components/homepage/hero/Hero';
+import Description from '../../components/homepage/course-description/Description';
+import Aks from '../../components/homepage/aks/Aks';
+import Instructor from '../../components/homepage/instructor/Instructor';
+import Course from '../../components/homepage/choose-course/Course';
+import Contact from '../../components/homepage/contact/Contact';
+import Footer from '../../components/homepage/footer/Footer';
 
 const Homepage = () => {
 
     return (
-        <div>
+        <>
             <Header />
             <Hero />
             <Description />
@@ -19,7 +20,7 @@ const Homepage = () => {
             <Course />
             <Contact />
             <Footer />
-        </div>
+        </>
     )
 }
 
