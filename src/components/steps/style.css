@@ -1,0 +1,129 @@
+.Steps .title h6 {
+    width: 100%;
+    font-size: 30px;
+    max-width: 740px;
+    font-weight: 500;
+    color: #0F0E13;
+    line-height: 70px;
+}
+
+.steps {
+    width: 100%;
+    max-width: 740px;
+    margin-top: 55px;
+}
+
+.steps .step {
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+/* .step .img { */
+/* width: 300px; */
+/* height: 300px; */
+/* border: 1px solid; */
+/* } */
+
+/* .step .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} */
+
+.step p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Steps .bg-img {
+    width: 100%;
+    height: 480px;
+    max-width: 515px;
+}
+
+.Steps .bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .steps .step {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .step .img {
+        margin: auto;
+    }
+
+    .step p {
+        margin-left: 2rem;
+    }
+
+    .Steps .bg-img {
+        margin: auto;
+        height: 450px;
+        max-width: 475px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Steps .title h6 {
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .steps {
+        max-width: 500px;
+    }
+
+    .steps .step p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Steps .bg-img {
+        height: 400px;
+        max-width: 470px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Steps .title h6 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .steps {
+        margin-top: 20px;
+        max-width: 400px;
+    }
+
+    .steps .step {
+        gap: 0px;
+    }
+
+    .step .img {
+        height: 80px;
+    }
+
+    .step .img img {
+        height: 100%;
+    }
+
+    .steps .step p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 4rem;
+    }
+
+    .Steps .bg-img {
+        height: 330px;
+        max-width: 400px;
+    }
+}

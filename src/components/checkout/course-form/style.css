@@ -1,0 +1,72 @@
+.Course-form {
+    padding-top: 376px;
+    margin-bottom: 80px;
+}
+
+.Course-form .title h6 {
+    font-size: 28px;
+    color: #1B2337;
+    line-height: 84.71%;
+    margin-bottom: 26px;
+}
+
+.Course-form .course {
+    width: 100%;
+    max-width: 740px;
+    padding: 16px 15px;
+    background: #FFFFFF;
+    border-radius: 7.16667px;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+}
+
+.Course-form .course .course-header {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.course-header h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F0E13;
+    line-height: 85.71%;
+    margin-bottom: 16px;
+}
+
+.course form {
+    padding-top: 12px;
+}
+
+.course .form-check {
+    margin-right: 42px;
+}
+
+.course form input {
+    font-size: 18px;
+}
+
+.course form label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 97.21%;
+    font-family: 'Poppins';
+}
+
+/* Media Queries */
+@media screen and (max-width: 520px) {
+    .Course-form {
+        padding-top: 180px;
+        margin-bottom: 30px;
+    }
+
+    .course .form-check {
+        margin-right: 20px;
+    }
+
+    .Course-form .title h6 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .course-header h6 {
+        line-height: 25px;
+    }
+}

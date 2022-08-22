@@ -28,32 +28,28 @@ const Header = () => {
                     <div className="menu">
                         <ul className="menu-items">
                             <li className="item">
-                                <a href="#home">Home</a>
+                                <a href="/">Home</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Professional Learning</a>
+                                <a href="/courses">Courses</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Books</a>
+                                <a href="/payment">Payment</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Online Learning</a>
+                                <a href="/paymentHistory">Payment History</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Grants</a>
+                                <a href="/checkOut">CheckOut</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Events</a>
+                                <a href="/continue-education-unit">CEU</a>
                             </li>
                             <li className="item">
-                                <a href="#home">Resources</a>
-                            </li>
-                            <li className="item">
-                                <a href="#home">About</a>
+                                <a href="/university-credits">University Credits</a>
                             </li>
                         </ul>
                     </div>
-
                     <i className="fa-solid fa-bars" onClick={handleToggle}></i>
                 </nav>
             </div>

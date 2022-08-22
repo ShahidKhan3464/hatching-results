@@ -1,0 +1,23 @@
+.History {
+    padding-top: 376px;
+    margin-bottom: 73px;
+}
+
+.History .title h6 {
+    font-size: 28px;
+    color: #1B2337;
+    line-height: 84.71%;
+    margin-bottom: 26px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 520px) {
+    .History {
+        padding-top: 180px;
+        margin-bottom: 36px;
+    }
+
+    .History .title h6 {
+        font-size: 20px;
+    }
+}
