@@ -149,6 +149,7 @@
 
 @media screen and (max-width: 520px) {
     .Payment-form {
+        margin-top: 0px;
         margin-left: -1rem;
         margin-bottom: 50px;
     }

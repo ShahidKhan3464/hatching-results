@@ -1,6 +1,5 @@
 .Course-form {
     padding-top: 376px;
-    margin-bottom: 80px;
 }
 
 .Course-form .title h6 {
@@ -11,8 +10,6 @@
 }
 
 .Course-form .course {
-    width: 100%;
-    max-width: 740px;
     padding: 16px 15px;
     background: #FFFFFF;
     border-radius: 7.16667px;
@@ -54,7 +51,6 @@
 @media screen and (max-width: 520px) {
     .Course-form {
         padding-top: 180px;
-        margin-bottom: 30px;
     }
 
     .course .form-check {
