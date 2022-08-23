@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../../assets/images/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
@@ -23,30 +24,32 @@ const Header = () => {
             <div className='container'>
                 <nav className="navbar">
                     <div className="logo">
-                        <img src={logo} alt="logo" />
+                        <Link to='/'>
+                            <img src={logo} alt="logo" />
+                        </Link>
                     </div>
                     <div className="menu">
                         <ul className="menu-items">
                             <li className="item">
-                                <a href="/">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="item">
-                                <a href="/courses">Courses</a>
+                                <Link to="/courses">Courses</Link>
                             </li>
                             <li className="item">
-                                <a href="/payment">Payment</a>
+                                <Link to="/payment">Payment</Link>
                             </li>
                             <li className="item">
-                                <a href="/paymentHistory">Payment History</a>
+                                <Link to="/paymentHistory">Payment History</Link>
                             </li>
                             <li className="item">
-                                <a href="/checkOut">CheckOut</a>
+                                <Link to="/checkOut">CheckOut</Link>
                             </li>
                             <li className="item">
-                                <a href="/continue-education-unit">CEU</a>
+                                <Link to="/continue-education-unit">CEU</Link>
                             </li>
                             <li className="item">
-                                <a href="/university-credits">University Credits</a>
+                                <Link to="/university-credits">University Credits</Link>
                             </li>
                         </ul>
                     </div>
